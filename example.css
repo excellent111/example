@@ -87,13 +87,12 @@ strong {
 h1 {
     display: flex;
     margin-top: 0;
-    width: 100%;
+    width: 300px;
     font-size: 30px;
     padding-top: 300px;
     padding-bottom: 300px;
     text-align: center;
     color: #818181;
-    border: 3px  solid #cceeaa;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
 }
