@@ -253,11 +253,21 @@ footer {
         transition-duration: 2s;
     }
 
-    .c2 {
-      width: 40%;
+    .c1 {
+        width: 30%;
+        height: 100px;
+        margin-right: 150px;
     }
+
+    .c2 {
+        width: 40%;
+        margin-right: auto;
+    }
+
     .c3 {
-      width: 65%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: 10%;
     }
 
     .page-center {
