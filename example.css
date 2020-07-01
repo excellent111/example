@@ -1,0 +1,341 @@
+@charset 'utf-8';
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1350px;
+    background-color: #fcf9f170;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: -10;
+}
+
+header {
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    background: url("https://cdn.pixabay.com/photo/2017/09/09/11/14/fireworks-2731708_960_720.jpg") repeat;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+aside {
+    display: flex;
+    background: url("https://cdn.pixabay.com/photo/2017/10/25/21/39/gold-2889424_960_720.jpg");
+    color: #fa3d04;
+    font-size: 16px;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+div, nav {
+    display: flex;
+}
+
+nav {
+    padding-left: 100px;
+    padding-bottom: 10px;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.container {
+    margin-bottom: 80px;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.c1 {
+    width: 200px;
+    background-color: rgb(221, 150, 186);
+    color: #142104;
+    text-align: center;
+    border-radius: 80%;
+}
+
+.c2 {
+    width: 40px;
+    height: 40px;
+    color: #38039a;
+    font-size: 40px;
+    background-color: rgba(222, 165, 7, 0.4);
+}
+
+.c3 {
+    background-color: #555555;
+    border-top: 5px dashed rgb(169, 169, 28);
+    border-bottom: 10px double rgb(169, 169, 28);
+    border-radius: 10%;
+    color: #a5fd4c;
+}
+
+strong {
+    font-size: 32px;
+}
+
+.c1, .c2, .c3 {
+    display: block;
+    padding: 6px;
+    margin: 10px;
+  }
+
+h1 {
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+    font-size: 30px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    color: #818181;
+    border: 3px  solid #cceeaa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 70px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.582);
+    border-bottom: 5px solid  #f60606;
+    color: #f60606;
+    border-radius: 50%;
+}
+
+h3 {
+    margin: 15px;
+    width: 300px;
+    color: #fa3d04c0;
+}
+
+a {
+    border-bottom: 2px solid #ffffff;
+    font-size: 20px;
+    color: #630505;
+    height: 60px;
+    border-radius: 50%;
+    margin: 17px;
+    display: inline-block;
+}
+
+p {
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    height: 60px;
+    border-top: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+section {
+    padding: 15px 0 160px 0;
+    width: 50%;
+    margin: 80px;
+}
+
+#section-change {
+    display: flex;
+}
+.phone {
+    width: 37%;
+    height: 350px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_960_720.png");
+}
+
+article {
+    widows: 500px;;
+}
+
+footer {
+    font-size: 13px;
+    letter-spacing: 1.7px;
+    width: 100%;
+    background-color: #aaaaaa;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+@media (max-width: 600px) {
+    #star-six {
+        background-color: #cceeaa;
+        color: #d45151;
+        font-weight: bolder;
+        padding: 20px;
+        transition-duration: 1s;  
+    }
+
+    h1 {
+        width: 80%;
+    }
+    
+    .page-center {
+        display: block;
+    }
+
+    .c1 {
+        width: 20%;
+        height: 100px;
+        margin-right: 150px;
+    }
+    
+    .c2 {
+        width: 25%;
+        font-size: 30px;
+        margin-right: auto;
+    }
+
+    .c3 {
+        width: 65%;
+        margin-right: 25%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    #star-six {
+        background-color: #cceeaa;
+        font-weight: bolder;
+        padding: 20px;
+        transition-duration: 2s;
+    }
+    .c1 {
+      width: 30%;
+    }
+
+    .c2 {
+    width: 65%;
+    margin-left: 100px;
+    }
+  
+    .c3 {
+      width: 100%;
+    }
+
+    aside-p, aside-a {
+        font-size: 18px;
+    }
+
+    .page-center {
+        display: block;
+    }
+
+    aside {
+        position: fixed;
+        bottom: 62px;
+        right: 0px;
+        width: 450px;
+        height: 150px;
+        padding: 10px;
+        text-align: left;
+    }
+}
+  
+  
+@media (min-width: 1111px) {
+    header{
+    width: 100%;
+    }
+
+    #star-six {
+        background-color: #cceeaa;
+        color: #d45151;
+        font-weight: bolder;
+        padding: 20px;
+        transition-duration: 2s;
+    }
+
+    .c2 {
+      width: 40%;
+    }
+    .c3 {
+      width: 65%;
+    }
+
+    .page-center {
+        display: flex;
+    }
+
+    p{
+        width: 60%;
+    }
+
+    aside {
+        position: fixed;
+        top: 120px;
+        right: 0px;
+        width: 15%;
+        height: 100vw;
+        display: block;
+        padding: 10px;
+        text-align: left;
+        line-height: 40px;
+    }
+
+    h3 {
+        width: 40%;
+    }
+
+    article {
+        width: auto;
+    }
+}
+
+#rotate {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #cceeaa;
+    transform: rotateZ(360deg) ;
+    transition: 2s;
+}
+
+#rotate:hover {
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #cceeaa;
+    transform: rotateX(360deg) ;
+}
+
+#star-six {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    background: none;    
+    color: #f51427;
+    border-left: 44px solid transparent;
+    border-right: 44px solid transparent;
+    border-bottom: 88px solid #eeaae5;
+    position: relative;
+    z-index: 5;
+    top: -22px;
+    left: 22px;
+}
+
+#star-six:before{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-left: 44px solid transparent;
+    border-right: 44px solid transparent;
+    border-top: 88px solid #eeaae5;
+    position: absolute;
+    content: "";
+    left: -22px;
+    z-index: -1;
+    }
